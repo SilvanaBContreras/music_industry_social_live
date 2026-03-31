@@ -1,0 +1,61 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Entornos
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# VS Code
+# =========================
+.vscode/settings.json
+
+# =========================
+# Datos tabulares
+# =========================
+*.csv
+*.parquet
+*.feather
+
+# =========================
+# Archivos de texto sensibles o de trabajo
+# =========================
+*token*.txt
+*key*.txt
+*secret*.txt
+*df*.txt
+
+# =========================
+# Salidas de APIs / datos crudos
+# =========================
+chartmetric_liveevents_2024_2025/
+chartmetric_liveevents_2024_2025_cohorte2/
+chartmetric_metadata/
+chartmetric_metadata_cohorte2/
+jambase_extract_test/
+
+# =========================
+# Archivos grandes o temporales
+# =========================
+*.zip
+*.tmp
+*.log
+
+# =========================
+# Sistema
+# =========================
+.DS_Store
+Thumbs.db
